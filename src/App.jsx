@@ -5,6 +5,7 @@ import Produtos from "./Components/Produtos";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
 import Contato from "./Components/Contato";
+import Produto from "./Components/Produto";
 
 // Utilize a API abaixo para puxar a lista de produto
 // https://ranekapi.origamid.dev/json/api/produto
@@ -19,6 +20,7 @@ const App = () => {
         <div className="content">
           <Routes>
             <Route path="/" element={<Produtos />} />
+            <Route path="produto/:id" element={<Produto />} />
             <Route path="contato" element={<Contato />} />
           </Routes>
         </div>
