@@ -2,8 +2,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    max-width: 60rem;
-    margin: 0 auto;
 }
 
 .nome {
